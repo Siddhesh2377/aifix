@@ -1,0 +1,39 @@
+{
+  "name": "aifix",
+  "version": "1.0.0",
+  "description": "Detect and fix common AI-generated code mistakes. Like ESLint, but for AI slop.",
+  "main": "src/index.js",
+  "bin": {
+    "aifix": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "keywords": [
+    "ai",
+    "code-quality",
+    "linter",
+    "static-analysis",
+    "copilot",
+    "cursor",
+    "claude",
+    "chatgpt",
+    "code-fixer",
+    "ai-generated",
+    "code-review"
+  ],
+  "author": "Siddhesh2377",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Siddhesh2377/aifix"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md"
+  ]
+}
